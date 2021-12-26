@@ -13,7 +13,9 @@ img {
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
+a{
+    color: #4985FF;
+}
 .header {
     position: fixed;
     width: 100%;
@@ -63,10 +65,7 @@ body {
     padding-bottom: 40px;
     border-bottom: 2px solid;
 }
-.line1{
-    opacity: 0.5;
-    border: 1px solid #A1A1A1;
-}
+
 
 .hero {
     background: url("../images/team.png");
@@ -110,10 +109,12 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -15px;
 }
 
 .col-4 {
     width: 33.33333%;
+    padding:0 15px;
 }
 
 .rang {
@@ -142,7 +143,8 @@ body {
     align-items: center;
     margin-bottom: 105px;
 }
-.btnn{
+
+.btnn {
     display: block;
     text-align: center;
 
@@ -172,61 +174,131 @@ body {
     font-size: 14px;
     color: #999999;
 }
-.high-quality-container{
+
+.high-quality-container {
     padding: 100px 0 70px 0;
 }
-.high-quality{
+
+.high-quality {
     background-color: #F6F6F8;
 }
-.col-6{
+
+.col-6 {
     width: 33.33333%;
+    padding: 0 15px;
+
 }
-.justify-content{
+
+.justify-content {
     display: flex;
     justify-content: space-between;
+
 }
-.high-quality-title{
+
+.high-quality-title {
     font-weight: 700;
-    font-size:32px;
+    font-size: 32px;
     margin-bottom: 40px;
     line-height: 52px;
 }
-.high-quality-subtitle{
+
+.high-quality-subtitle {
     font-weight: 400;
     line-height: 25px;
     color: #999999;
     margin-bottom: 30px;
 }
 
-
-
-
-
-.just-img{
+.just-img {
     display: block;
     text-align: right;
     margin-bottom: 90px;
 }
-.col-2{
+
+.col-2 {
+    padding: 0 -15px;
     width: 20%;
 }
-.mini-justify-content{
+
+.mini-justify-content {
     display: flex;
     align-items: center;
 }
-.high-quality-line{
+
+.high-quality-line {
     margin-bottom: 70px;
     border: 1px solid #E0E0E0;
 
 }
-.h4{
-    padding-left:20px;
+
+.link123{
+    display: block;
+    margin-bottom: 143px;
+
+}
+.h4 {
+    padding-left: 20px;
     font-weight: 400;
     font-size: 36px;
     line-height: 53px;
 
 }
-.mini-project-content{
+
+.mini-project-content {
     font-weight: 400;
-    color:#999999;
+    color: #999999;
+}
+
+.specialize {
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    height: 490px;
+}
+
+.specialize-container{
+    padding: 100px 0 70px 0;
+}
+.specialize-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+}
+
+.btn3{
+  display: flex;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #4985FF;
+    padding: 14px 36px;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specialize-img{
+    position:relative;
+    top: 30px;
+    margin-bottom: 30px;
+
+}
+.heading{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.heading span{
+    color:#4985FF;
+}
+.img-box-content{
+    font-weight: 400;
+    line-height: 25px;
+    color: #999999;
+    margin-bottom: 30px;
 }
