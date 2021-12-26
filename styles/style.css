@@ -13,12 +13,19 @@ img {
 body {
     font-family: 'Montserrat', sans-serif;
 }
-a{
+
+a {
     color: #4985FF;
 }
+
 .header {
-    position: fixed;
+    position: absolute;
     width: 100%;
+}
+
+.header-line {
+    border: 1px solid #999999;
+    margin: 0 auto;
 }
 
 .container {
@@ -114,7 +121,7 @@ a{
 
 .col-4 {
     width: 33.33333%;
-    padding:0 15px;
+    padding: 0 15px;
 }
 
 .rang {
@@ -231,11 +238,12 @@ a{
 
 }
 
-.link123{
+.link123 {
     display: block;
     margin-bottom: 143px;
 
 }
+
 .h4 {
     padding-left: 20px;
     font-weight: 400;
@@ -254,9 +262,10 @@ a{
     height: 490px;
 }
 
-.specialize-container{
+.specialize-container {
     padding: 100px 0 70px 0;
 }
+
 .specialize-title {
     color: #fff;
     font-weight: 700;
@@ -264,8 +273,8 @@ a{
     line-height: 52px;
 }
 
-.btn3{
-  display: flex;
+.btn3 {
+    display: flex;
     font-size: 16px;
     line-height: 19px;
     background-color: #4985FF;
@@ -276,29 +285,107 @@ a{
     cursor: pointer;
 }
 
-.space-between{
+.space-between {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.specialize-img{
-    position:relative;
-    top: 30px;
-    margin-bottom: 30px;
 
+.img-box {
+    position: relative;
+    top: 40px;
+    margin-bottom: 30px;
 }
-.heading{
+
+.specialize-img {
+    margin-bottom: 30px;
+}
+
+.heading {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 30px;
 }
-.heading span{
-    color:#4985FF;
+
+.heading span {
+    color: #4985FF;
 }
-.img-box-content{
+
+.img-box-content {
     font-weight: 400;
     line-height: 25px;
     color: #999999;
     margin-bottom: 30px;
+}
+
+.specialize-line {
+    border: 1px solid #E0E0E0;
+    margin: 85px 0;
+}
+
+.our-project {
+    padding-top: 482px;
+}
+
+.background-our-project {
+    background-color: #F6F6F8;
+}
+
+.our-project-container {
+    padding: 100px 0 130px 0;
+}
+
+.our-project-title-box {
+    text-align: center;
+}
+
+.our-project-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.our-project-subtitle {
+    font-weight: 400;
+    line-height: 25px;
+    color: #999999;
+    margin-bottom: 70px;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.our-project-img-box {
+    width: 255px;
+    height: 255px;
+    margin-bottom: 50px;
+}
+
+.our-project-btn {
+    display: flex;
+    justify-content: center;
+}
+.video{
+    background-image: url("../images/narrow-team-work.png");
+}
+.video-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.video-img{
+    position: relative;
+    left: 60px;
+    margin: 0 auto;
+    bottom: -100px;
+    display:inline-block;
+    text-align: center;
+    width: 970px;
+    height: 430px;
+
 }
