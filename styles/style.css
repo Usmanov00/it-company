@@ -370,7 +370,17 @@ a {
     justify-content: center;
 }
 .video{
-    background-image: url("../images/narrow-team-work.png");
+    background: url("../images/narrow-team-work.png") no-repeat center/cover;
+}
+.video-title{
+    font-weight: 700;
+    font-size: 36px;
+    margin: 70px 0 30px 0;
+    color: #fff;
+    line-height: 52px;
+}
+.video-subtitle{
+    color: #fff;
 }
 .video-box{
     display: flex;
