@@ -369,33 +369,165 @@ a {
     display: flex;
     justify-content: center;
 }
-.video{
+
+.video {
     background: url("../images/narrow-team-work.png") no-repeat center/cover;
 }
-.video-title{
+
+.video-title {
     font-weight: 700;
     font-size: 36px;
     margin: 70px 0 30px 0;
     color: #fff;
     line-height: 52px;
 }
-.video-subtitle{
+
+.video-subtitle {
     color: #fff;
 }
-.video-box{
+
+.video-box {
     display: flex;
     flex-direction: column;
     text-align: center;
 
 }
-.video-img{
+
+.video-img {
     position: relative;
     left: 60px;
     margin: 0 auto;
     bottom: -100px;
-    display:inline-block;
+    display: inline-block;
     text-align: center;
     width: 970px;
     height: 430px;
+
+}
+
+.video-play {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 215px;
+
+}
+
+.play {
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.play-btn {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.watch-video {
+    color: #fff;
+    padding-left: 21px;
+
+}
+.subscribe{
+
+}
+.just-line{
+    border: 1px solid #e0e0e0;
+    margin: 165px 0 85px 0;
+}
+.subscribe-title{
+    margin-bottom:20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+}
+.subscribe-subtitle{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: #999999;
+
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.feedback-input{
+    padding:14px 139px 14px 26px;
+    border-radius: 30px 0 0 30px;
+    border: solid #f2f2f2;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+
+}
+::placeholder{
+    font-weight:400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 20px;
+}
+.feedback-btn{
+    padding:14px 36px 14px 26px;
+    cursor:pointer;
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0 30px 30px 0;
+    border: solid transparent;
+    color: #fff;
+
+}
+.lust-p{
+    color:#999999;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+.footer-container{
+    padding: 70px 0 30px 0;
+}
+.footer-title{
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.pic{
+    list-style: none;
+    display: flex;
+    margin-bottom: 30px;
+    color: #999999;
+
+}
+.list{
+    margin-bottom: 70px;
+}
+.text{
+    padding-left: 16px;
+}
+.col-3{
+    width: 25%;
+}
+.footer-line{
 
 }
