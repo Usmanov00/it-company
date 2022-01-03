@@ -22,11 +22,13 @@ a {
 .header {
     position: absolute;
     width: 100%;
+    border-bottom: 2px solid #999999;
 }
 
 .header-line {
     border: 1px solid #999999;
     margin: 0 auto;
+    position: absolute;
 }
 
 .container {
@@ -539,6 +541,7 @@ a {
 }
 .text{
     padding-left: 16px;
+    cursor: pointer;
 }
 .col-3{
     width: 25%;
